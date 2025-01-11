@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.Table-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Cell styles */
+.Cell {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.Cell-lit {
+  background-color: rgb(42, 42, 145);
+  border: 2px solid rgb(0, 0, 0);
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.Board-Heading {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(42, 42, 145);
+}
